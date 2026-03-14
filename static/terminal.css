@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+  --accent: #ffffff;
+}
+
+* {
+  font-family: 'PT Mono', monospace;
+}
+
+.container {
+  max-width: 860px;
+  width: 100%;
+  padding: 0 2rem;
+}
+
+.post-content {
+  text-align: left;
+  margin-top: 2rem;
+}
+
+.post-content p {
+  line-height: 1.75;
+}
+
+.post-content hr {
+  opacity: 0.3;
+  margin: 2rem 0;
+}
+
+.post-meta {
+  opacity: 0.4;
+  font-size: 0.85em;
+}
+.post-title {
+  font-weight: 700;
+}
+
+.header {
+  padding-top: 1rem;
+}
